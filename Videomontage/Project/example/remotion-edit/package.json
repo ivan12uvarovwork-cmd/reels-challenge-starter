@@ -1,0 +1,22 @@
+{
+  "name": "example-remotion-edit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "still": "remotion still Example out/check.png --frame=90",
+    "render": "remotion render Example out/example.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.506",
+    "@remotion/google-fonts": "4.0.506",
+    "@remotion/layout-utils": "^4.0.506",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.506"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.8.2"
+  }
+}
