@@ -4,7 +4,7 @@
 
 ## Структура
 
-- `INSTALL.md` — что поставить на компьютер один раз (Node 22, ffmpeg, faster-whisper) и как проверить.
+- `INSTALL.md` — что поставить на компьютер один раз (Node 22, ffmpeg, Python с faster-whisper, Remotion) и как проверить.
 - `Rules/` — источник правил и кода, своего `package.json` нет, сама не запускается.
   - `src/` — компоненты Remotion; цвет и шрифт меняются в `src/style.ts`.
   - `skills/video-montage/SKILL.md` — процесс монтажа по фазам.
